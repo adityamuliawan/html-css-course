@@ -204,7 +204,6 @@ footer p {
 
 nav a:link {
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -247,7 +246,7 @@ h2::after {
   right: -25px;
 }
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -288,4 +287,25 @@ aside {
 
 footer {
   clear: both;
+} */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
 }
